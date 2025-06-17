@@ -1,0 +1,28 @@
+﻿Abstract	abstract
+Art and Literature	article
+Article	article
+Article	Book	chapter
+Article	Data Paper	article
+Article	Early Access	article
+Article	Meeting	proceeding
+Bibliography	article
+Bibliography	Book	chapter
+Biography	article
+Biography	Book	chapter
+Book	book
+Correction	correction
+Correction	Book	correction
+Editorial	editorial
+Editorial	Book	editorial
+Letter	letter
+Letter	Book	letter
+Meeting	proceeding
+Meeting	Book	proceeding
+News	article
+News	Book	article
+Other	other
+Reference Material	article
+Retraction	retraction
+Review	article
+Review	Book	chapter
+Unspecified	other	

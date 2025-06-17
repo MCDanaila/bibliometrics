@@ -1,0 +1,9 @@
+# DB_ENGINE must be either `sqlite` or `postgres`
+# POSTGRES_SERVER=localhost
+DB_ENGINE=postgres
+POSTGRES_PORT=5433
+
+export POSTGRES_USER=ethz_biblio
+export POSTGRES_PASSWORD=password
+export POSTGRES_SERVER=bibliometric-dev.ethz.ch
+export POSTGRES_DB=testbiblio

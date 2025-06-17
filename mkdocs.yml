@@ -1,0 +1,70 @@
+site_name: ETHZ - Bibliometrics
+
+plugins:
+- search
+- autorefs
+- mkdocstrings:
+    custom_templates: templates
+    default_handler: python
+    handlers:
+      python:
+        selection:
+            docstring_style: "google"
+        options:
+          show_source: true
+
+theme:
+  name: material
+  palette:
+  - media: '(prefers-color-scheme: light)'
+    scheme: default
+    primary: blue
+    accent: orange
+    toggle:
+      icon: material/weather-night
+      name: Switch to dark mode
+  - media: '(prefers-color-scheme: dark)'
+    scheme: slate
+    primary: orange
+    accent: blue
+    toggle:
+      icon: material/weather-sunny
+      name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/gitlab
+    logo: material/book-open-variant
+  favicon: img/favicon.png
+
+repo_name: sis/bibliometrics
+repo_url: https://sissource.ethz.ch/sis/bibliometrics
+
+nav:
+    - index.md
+    - Documentation:
+        - Set up:
+            setup.md
+        - CLI:
+          - Ingest:
+              ingest.md
+          - Inspect:
+              inspect.md
+          - Link:
+              link.md
+        - Explore:
+            explore.md
+    - Reference:
+        reference.md
+
+
+
+markdown_extensions:
+  - meta
+  - attr_list
+
+
+copyright: Software and documentation by <a style="color:orange;" href="https://www.exact-lab.it">eXact lab s.r.l.</a>
+extra:
+  generator: false
+
+extra_css:
+  - css/extra.css

@@ -1,0 +1,12 @@
+psql -d $POSTGRES_DB -h $POSTGRES_SERVER -U $POSTGRES_USER -f `dirname $0`/WoSAffiliationStaging.sql
+psql -d $POSTGRES_DB -h $POSTGRES_SERVER -U $POSTGRES_USER -f `dirname $0`/WoSAuthorStaging.sql
+psql -d $POSTGRES_DB -h $POSTGRES_SERVER -U $POSTGRES_USER -f `dirname $0`/WoSAuthorshipStaging.sql
+psql -d $POSTGRES_DB -h $POSTGRES_SERVER -U $POSTGRES_USER -f `dirname $0`/WoSPublicationStaging.sql
+psql -d $POSTGRES_DB -h $POSTGRES_SERVER -U $POSTGRES_USER -f `dirname $0`/WoSAuthorKeywordStaging.sql
+psql -d $POSTGRES_DB -h $POSTGRES_SERVER -U $POSTGRES_USER -f `dirname $0`/WoSSourceStaging.sql
+psql -d $POSTGRES_DB -h $POSTGRES_SERVER -U $POSTGRES_USER -f `dirname $0`/WoSCitationStaging.sql
+psql -d $POSTGRES_DB -h $POSTGRES_SERVER -U $POSTGRES_USER -f `dirname $0`/WoSGrantStaging.sql
+psql -d $POSTGRES_DB -h $POSTGRES_SERVER -U $POSTGRES_USER -f `dirname $0`/WoSPublicationGrantStaging.sql
+psql -d $POSTGRES_DB -h $POSTGRES_SERVER -U $POSTGRES_USER -f `dirname $0`/WoSPubCountryStaging.sql
+psql -d $POSTGRES_DB -h $POSTGRES_SERVER -U $POSTGRES_USER -f `dirname $0`/WoSPubOrgStaging.sql
+psql -d $POSTGRES_DB -h $POSTGRES_SERVER -U $POSTGRES_USER -f `dirname $0`/WoSPubSubjectStaging.sql

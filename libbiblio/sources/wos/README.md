@@ -1,0 +1,1 @@
+`/home/bibliometrics/.adrian_start.sh` -> prepare user and env by loading `set_biblio_db_envs.sh`

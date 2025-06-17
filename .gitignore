@@ -1,0 +1,51 @@
+# environment files
+.flaskenv
+.env
+.conda
+
+*.py[cod]
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+__pycache__
+logs
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+htmlcov/*
+
+# cache
+.mypy_cache
+
+# Translations
+*.mo
+
+venv
+*.db
+
+
+*.DS_Store
+**/*.DS_Store
+
+tests/test_data/
+sandbox.ipynb
+site/
+
+restartDB.sh
